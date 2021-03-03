@@ -48,59 +48,59 @@ public class Kotik {
 	}
     public void eat(int satiety) {
 		this.satiety += satiety;
-		System.out.println("Меня покормили");
+		System.out.println("РњРµРЅСЏ РїРѕРєРѕСЂРјРёР»Рё");
     }
     public void eat(int satiety, String nameOfEat) {
 		this.satiety+= satiety;
 		this.nameOfEat = nameOfEat;
-		System.out.println("Меня покормили"+" "+this.nameOfEat);
+		System.out.println("РњРµРЅСЏ РїРѕРєРѕСЂРјРёР»Рё"+" "+this.nameOfEat);
     }
     public void eat() {
     	eat(2, "milk");
     }
 	public boolean play() {
 		if (satiety <=  0) {
-			System.out.println("Покормите");
+			System.out.println("РџРѕРєРѕСЂРјРёС‚Рµ");
 			return false;
 		} else {
-			System.out.println("Играю");
+			System.out.println("РРіСЂР°СЋ");
 			return true;
 		}
     }
     public boolean sleep() {
 		if (satiety <= 0) {
-			System.out.println("Покормите");
+			System.out.println("РџРѕРєРѕСЂРјРёС‚Рµ");
 			return false;
 		} else {
-			System.out.println("Сплю");
+			System.out.println("РЎРїР»СЋ");
 			return true;
 		}
 		
     }
 	public boolean chaseMouse() {
 		if (satiety <=  0) {
-			System.out.println("Покормите");
+			System.out.println("РџРѕРєРѕСЂРјРёС‚Рµ");
 			return false;
 		} else {
-			System.out.println("Гоняюсь за мышкой");
+			System.out.println("Р“РѕРЅСЏСЋСЃСЊ Р·Р° РјС‹С€РєРѕР№");
 			return true;
 		}
     }
 	public boolean lickWool() {
 		if (satiety <=  0) {
-			System.out.println("Покормите");
+			System.out.println("РџРѕРєРѕСЂРјРёС‚Рµ");
 			return false;
 		} else {
-			System.out.println("Облизываю шерсть");
+			System.out.println("РћР±Р»РёР·С‹РІР°СЋ С€РµСЂСЃС‚СЊ");
 			return true;
 		}
     }
 	public boolean wagMyTail() {
 		if (satiety <=  0) {
-			System.out.println("Покормите");
+			System.out.println("РџРѕРєРѕСЂРјРёС‚Рµ");
 			return false;
 		} else {
-			System.out.println("Виляю хвостом");
+			System.out.println("Р’РёР»СЏСЋ С…РІРѕСЃС‚РѕРј");
 			return true;
 		}
     }
