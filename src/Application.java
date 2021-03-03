@@ -2,15 +2,15 @@ import package_Kotik.Kotik;
 
 public class Application {
 	public static void main(String args[]) {
-		Kotik kotik = new Kotik(1,1,1,"Пуся","мяу-мяу");
+		Kotik kotik = new Kotik(1,1,1,"РџСѓСЃСЏ","РјСЏСѓ-РјСЏСѓ");
 		Kotik newKotik = new Kotik();
-		newKotik.setKotik(1, 1, 1, "Пуся2", "мяу-мяу-мяу");
+		newKotik.setKotik(1, 1, 1, "РџСѓСЃСЏ2", "РјСЏСѓ-РјСЏСѓ-РјСЏСѓ");
 		kotik.liveAnotherDay();
 		if (kotik.getMeow() == newKotik.getMeow()) {
-			System.out.println("Одинаковые meow");
+			System.out.println("РћРґРёРЅР°РєРѕРІС‹Рµ meow");
 		} else {
-			System.out.println("Разные meow");
+			System.out.println("Р Р°Р·РЅС‹Рµ meow");
 		}
-		System.out.println("Количество созданных Котиков:"+" "+Kotik.getCount());
+		System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ СЃРѕР·РґР°РЅРЅС‹С… РєРѕС‚РёРєРѕРІ:"+" "+Kotik.getCount());
     }
 }
